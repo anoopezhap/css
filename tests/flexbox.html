@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flex box</title>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: violet">div1 hello world</div>
+      <div style="background-color: indigo">
+        div2
+        <p>hello world</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: violet; width: 100px">100px</div>
+      <div style="background-color: indigo; flex: 1">flex 1</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: violet; width: 100px">100px</div>
+      <div style="background-color: indigo; flex: 1">flex 1</div>
+      <div style="background-color: red; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        height: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+      "
+    >
+      <div
+        style="
+          background-color: violet;
+          width: 100px;
+          height: 100%;
+          text-align: center;
+        "
+      >
+        div1
+      </div>
+      <div style="background-color: indigo; width: 100px; height: 100%">
+        div2
+      </div>
+      <div style="background-color: blue; width: 100px; height: 100%">div3</div>
+    </div>
+  </body>
+</html>

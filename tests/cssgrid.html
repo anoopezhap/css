@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS gRID</title>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: blue">div1</div>
+      <div style="background-color: orange">
+        div2
+        <p>hello world</p>
+      </div>
+      <div style="background-color: violet">div3</div>
+      <div style="background-color: indigo">div4</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 200px 100px;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: blue">div1</div>
+      <div style="background-color: orange">
+        div2
+        <p>hello world</p>
+      </div>
+      <div style="background-color: violet">div3</div>
+      <div style="background-color: indigo">div4</div>
+    </div>
+
+    <div
+      style="display: grid; grid-template-columns: 2fr 1fr; margin-top: 10px"
+    >
+      <div style="background-color: blue">div1</div>
+      <div style="background-color: orange">
+        div2
+        <p>hello world</p>
+      </div>
+      <div style="background-color: violet">div3</div>
+      <div style="background-color: indigo">div4</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 10px;
+        column-gap: 5px;
+        row-gap: 10px;
+      "
+    >
+      <div style="background-color: violet; height: 200px">div1</div>
+      <div style="background-color: indianred; height: 200px">div1</div>
+      <div style="background-color: blue; height: 200px">div1</div>
+      <div style="background-color: blue; height: 200px">div1</div>
+      <div style="background-color: violet; height: 200px">div1</div>
+      <div style="background-color: indianred; height: 200px">div1</div>
+    </div>
+  </body>
+</html>
